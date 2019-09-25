@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Failure</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      html {
+        font-size: 200%;
+        font-family: sans-serif;
+      }
+      div{
+        width: 70%;
+        background-color: #e0e0e0;
+        margin: 0 auto;
+        padding: 1rem 6rem;
+      }
+      button {
+        padding: 15px;
+        border: 2px solid #ffc107;
+        outline: none;
+        border-radius: 5px;
+        font-size: 0.7rem;
+        transition: all 0.2s;
+        background-color: #fff;
+        color: #ffc107;
+      }
+      button:hover {
+        background-color: #ffc107;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Error !!!</h1>
+      <p>There was an error with signning up.Please try again</p>
+      <form action="/failure" method="post">
+        <button type="submit">Try Again</button>
+      </form>
+    </div>
+  </body>
 </html>

@@ -54,7 +54,7 @@ body{
   display: inline-block;
   transition: all 0.3s;
   position: absolute;
-  left: -28%;
+  left: -30%;
   top: 50%;
   transform: translateY(-50%);
   color: #fff
